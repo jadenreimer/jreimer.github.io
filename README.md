@@ -58,16 +58,18 @@ A modern, minimalist portfolio website showcasing electrical engineering project
 
 ```
 jreimer.github.io/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styling and animations
-├── script.js           # JavaScript functionality
-└── README.md           # This file
+├── docs/               # Website files (GitHub Pages source)
+│   ├── index.html      # Main HTML file
+│   ├── styles.css      # CSS styling and animations
+│   └── script.js       # JavaScript functionality
+├── README.md           # Project documentation
+└── .git/               # Git repository
 ```
 
 ## Customization
 
 ### Adding New Projects
-1. Add a new project card in the `projects-grid` section of `index.html`
+1. Add a new project card in the `projects-grid` section of `docs/index.html`
 2. Create a corresponding modal with detailed information
 3. Update the dropdown menu in the navigation
 
@@ -100,7 +102,16 @@ Update the social media links in the navigation bar:
 
 ## Deployment
 
-This website is designed to be deployed on GitHub Pages. Simply push the files to your repository and enable GitHub Pages in the repository settings.
+This website is designed to be deployed on GitHub Pages. The website files are located in the `/docs` folder, which is the standard source directory for GitHub Pages.
+
+### GitHub Pages Setup
+1. Push all files to your GitHub repository
+2. Go to repository Settings → Pages
+3. Set Source to "Deploy from a branch"
+4. Select "main" branch and "/docs" folder
+5. Click Save
+
+Your website will be available at `https://jreimer.github.io`
 
 ## License
 
