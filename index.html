@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaden Reimer - Electrical Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>Jaden Reimer</h1>
+            </div>
+            
+            <div class="nav-menu">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link" id="projects-link">Projects</a>
+                    <div class="dropdown-content" id="projects-dropdown">
+                        <a href="#project1" class="dropdown-item">PCB Design System</a>
+                        <a href="#project2" class="dropdown-item">IoT Sensor Network</a>
+                        <a href="#project3" class="dropdown-item">Power Electronics Controller</a>
+                        <a href="#project4" class="dropdown-item">Embedded Systems Development</a>
+                        <a href="#project5" class="dropdown-item">Signal Processing Algorithm</a>
+                    </div>
+                </div>
+                <a href="#other-works" class="nav-link">Other Works</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-social">
+                <a href="https://linkedin.com/in/jaden-reimer" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/jreimer" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://jadenreimer.substack.com" target="_blank" class="social-icon">
+                    <i class="fas fa-newspaper"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Projects Section (Default Homepage) -->
+        <section id="projects" class="section active">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Electrical Engineering & Embedded Systems</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-project="project1">
+                        <div class="project-image">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>PCB Design System</h3>
+                            <p>Advanced printed circuit board design with multi-layer architecture and high-frequency considerations.</p>
+                            <div class="project-tags">
+                                <span class="tag">KiCad</span>
+                                <span class="tag">PCB Design</span>
+                                <span class="tag">High-Frequency</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-project="project2">
+                        <div class="project-image">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>IoT Sensor Network</h3>
+                            <p>Distributed sensor network for environmental monitoring with wireless communication protocols.</p>
+                            <div class="project-tags">
+                                <span class="tag">IoT</span>
+                                <span class="tag">Wireless</span>
+                                <span class="tag">Sensors</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-project="project3">
+                        <div class="project-image">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Power Electronics Controller</h3>
+                            <p>Digital control system for power converters with real-time feedback and optimization algorithms.</p>
+                            <div class="project-tags">
+                                <span class="tag">Power Electronics</span>
+                                <span class="tag">Control Systems</span>
+                                <span class="tag">DSP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-project="project4">
+                        <div class="project-image">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Embedded Systems Development</h3>
+                            <p>Real-time embedded systems for industrial automation with custom firmware development.</p>
+                            <div class="project-tags">
+                                <span class="tag">Embedded C</span>
+                                <span class="tag">RTOS</span>
+                                <span class="tag">ARM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-project="project5">
+                        <div class="project-image">
+                            <i class="fas fa-wave-square"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Signal Processing Algorithm</h3>
+                            <p>Advanced digital signal processing algorithms for noise reduction and feature extraction.</p>
+                            <div class="project-tags">
+                                <span class="tag">DSP</span>
+                                <span class="tag">MATLAB</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Works Section -->
+        <section id="other-works" class="section">
+            <div class="container">
+                <h2 class="section-title">Other Works</h2>
+                <p class="section-subtitle">Research, Publications & Collaborations</p>
+                
+                <div class="works-grid">
+                    <div class="work-item">
+                        <h3>Research Publications</h3>
+                        <p>Published papers on power electronics efficiency optimization and renewable energy integration.</p>
+                    </div>
+                    <div class="work-item">
+                        <h3>Open Source Contributions</h3>
+                        <p>Active contributor to open-source hardware and software projects in the electrical engineering community.</p>
+                    </div>
+                    <div class="work-item">
+                        <h3>Technical Consulting</h3>
+                        <p>Providing technical expertise for startups and established companies in power systems and embedded design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Let's Connect</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>jaden.reimer@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco Bay Area</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Available for new opportunities</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Detail Modals -->
+    <div id="project1" class="project-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>PCB Design System</h2>
+            <div class="project-details">
+                <div class="project-image-large">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>Designed and implemented a comprehensive PCB design system for high-frequency applications. The system includes multi-layer board design, impedance matching, and thermal management considerations.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Multi-layer PCB design (4-8 layers)</li>
+                        <li>High-frequency signal integrity analysis</li>
+                        <li>Thermal management and heat dissipation</li>
+                        <li>EMI/EMC compliance considerations</li>
+                        <li>Design for manufacturability (DFM)</li>
+                    </ul>
+                    
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span class="tag">KiCad</span>
+                        <span class="tag">Altium Designer</span>
+                        <span class="tag">SPICE Simulation</span>
+                        <span class="tag">Signal Integrity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project2" class="project-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>IoT Sensor Network</h2>
+            <div class="project-details">
+                <div class="project-image-large">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>Developed a scalable IoT sensor network for environmental monitoring with wireless communication protocols and cloud data integration.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Distributed sensor nodes with wireless communication</li>
+                        <li>Real-time data collection and transmission</li>
+                        <li>Cloud-based data storage and analytics</li>
+                        <li>Low-power design for extended battery life</li>
+                        <li>Scalable network architecture</li>
+                    </ul>
+                    
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span class="tag">ESP32</span>
+                        <span class="tag">LoRaWAN</span>
+                        <span class="tag">AWS IoT</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project3" class="project-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Power Electronics Controller</h2>
+            <div class="project-details">
+                <div class="project-image-large">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>Designed and implemented a digital control system for power converters with real-time feedback and optimization algorithms for maximum efficiency.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Digital control algorithms for power converters</li>
+                        <li>Real-time feedback and optimization</li>
+                        <li>Efficiency monitoring and reporting</li>
+                        <li>Fault detection and protection</li>
+                        <li>User interface for parameter adjustment</li>
+                    </ul>
+                    
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span class="tag">DSP</span>
+                        <span class="tag">Control Theory</span>
+                        <span class="tag">MATLAB/Simulink</span>
+                        <span class="tag">C/C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project4" class="project-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Embedded Systems Development</h2>
+            <div class="project-details">
+                <div class="project-image-large">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>Developed real-time embedded systems for industrial automation with custom firmware and hardware integration.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Real-time operating system implementation</li>
+                        <li>Custom firmware development</li>
+                        <li>Hardware-software integration</li>
+                        <li>Industrial communication protocols</li>
+                        <li>Safety and reliability features</li>
+                    </ul>
+                    
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span class="tag">ARM Cortex-M</span>
+                        <span class="tag">FreeRTOS</span>
+                        <span class="tag">Embedded C</span>
+                        <span class="tag">CAN Bus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project5" class="project-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Signal Processing Algorithm</h2>
+            <div class="project-details">
+                <div class="project-image-large">
+                    <i class="fas fa-wave-square"></i>
+                </div>
+                <div class="project-description">
+                    <h3>Overview</h3>
+                    <p>Developed advanced digital signal processing algorithms for noise reduction, feature extraction, and signal analysis in various applications.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Adaptive noise reduction algorithms</li>
+                        <li>Feature extraction and pattern recognition</li>
+                        <li>Real-time signal processing</li>
+                        <li>Multi-channel signal analysis</li>
+                        <li>Optimization for embedded systems</li>
+                    </ul>
+                    
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">DSP Libraries</span>
+                        <span class="tag">FFT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
