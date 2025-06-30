@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     initProjectModals();
     initContactForm();
     
-    // Set Projects as default active section
-    showSection('projects');
+    // Set About Me as default active section
+    showSection('about');
 });
 
 // Navigation functionality

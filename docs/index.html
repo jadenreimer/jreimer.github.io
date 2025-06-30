@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaden Reimer - Electrical Engineer</title>
+    <title>Jaden Reimer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
             </div>
             
             <div class="nav-menu">
+                <a href="#about" class="nav-link">About Me</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link" id="projects-link">Projects</a>
                     <div class="dropdown-content" id="projects-dropdown">
@@ -32,10 +33,10 @@
             </div>
             
             <div class="nav-social">
-                <a href="https://linkedin.com/in/jaden-reimer" target="_blank" class="social-icon">
+                <a href="https://linkedin.com/in/jaden-w-reimer" target="_blank" class="social-icon">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/jreimer" target="_blank" class="social-icon">
+                <a href="https://github.com/jadenreimer" target="_blank" class="social-icon">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="https://jadenreimer.substack.com" target="_blank" class="social-icon">
@@ -47,8 +48,26 @@
 
     <!-- Main Content -->
     <main class="main-content">
-        <!-- Projects Section (Default Homepage) -->
-        <section id="projects" class="section active">
+        <!-- About Me Section -->
+        <section id="about" class="section active">
+            <div class="container">
+                <h2 class="section-title">About Me</h2> 
+                <p class="section-subtitle">Electrical Engineer & Embedded Systems Specialist</p>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/headshot-template.jpg" alt="Jaden Reimer" class="profile-image">
+                    </div>
+                    
+                    <div class="about-text">
+                        <h3>Professional Experience</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
             <div class="container">
                 <h2 class="section-title">Projects</h2>
                 <p class="section-subtitle">Electrical Engineering & Embedded Systems</p>
@@ -56,7 +75,7 @@
                 <div class="projects-grid">
                     <div class="project-card" data-project="project1">
                         <div class="project-image">
-                            <i class="fas fa-microchip"></i>
+                            <img src="images/project-template.jpg" alt="PCB Design System" class="project-img">
                         </div>
                         <div class="project-content">
                             <h3>PCB Design System</h3>
@@ -71,7 +90,7 @@
 
                     <div class="project-card" data-project="project2">
                         <div class="project-image">
-                            <i class="fas fa-network-wired"></i>
+                            <img src="images/project-template.jpg" alt="IoT Sensor Network" class="project-img">
                         </div>
                         <div class="project-content">
                             <h3>IoT Sensor Network</h3>
@@ -86,7 +105,7 @@
 
                     <div class="project-card" data-project="project3">
                         <div class="project-image">
-                            <i class="fas fa-bolt"></i>
+                            <img src="images/project-template.jpg" alt="Power Electronics Controller" class="project-img">
                         </div>
                         <div class="project-content">
                             <h3>Power Electronics Controller</h3>
@@ -101,7 +120,7 @@
 
                     <div class="project-card" data-project="project4">
                         <div class="project-image">
-                            <i class="fas fa-microchip"></i>
+                            <img src="images/project-template.jpg" alt="Embedded Systems Development" class="project-img">
                         </div>
                         <div class="project-content">
                             <h3>Embedded Systems Development</h3>
@@ -116,7 +135,7 @@
 
                     <div class="project-card" data-project="project5">
                         <div class="project-image">
-                            <i class="fas fa-wave-square"></i>
+                            <img src="images/project-template.jpg" alt="Signal Processing Algorithm" class="project-img">
                         </div>
                         <div class="project-content">
                             <h3>Signal Processing Algorithm</h3>
@@ -203,7 +222,7 @@
             <h2>PCB Design System</h2>
             <div class="project-details">
                 <div class="project-image-large">
-                    <i class="fas fa-microchip"></i>
+                    <img src="images/project-template.jpg" alt="PCB Design System" class="modal-project-img">
                 </div>
                 <div class="project-description">
                     <h3>Overview</h3>
@@ -236,7 +255,7 @@
             <h2>IoT Sensor Network</h2>
             <div class="project-details">
                 <div class="project-image-large">
-                    <i class="fas fa-network-wired"></i>
+                    <img src="images/project-template.jpg" alt="IoT Sensor Network" class="modal-project-img">
                 </div>
                 <div class="project-description">
                     <h3>Overview</h3>
@@ -269,7 +288,7 @@
             <h2>Power Electronics Controller</h2>
             <div class="project-details">
                 <div class="project-image-large">
-                    <i class="fas fa-bolt"></i>
+                    <img src="images/project-template.jpg" alt="Power Electronics Controller" class="modal-project-img">
                 </div>
                 <div class="project-description">
                     <h3>Overview</h3>
@@ -302,7 +321,7 @@
             <h2>Embedded Systems Development</h2>
             <div class="project-details">
                 <div class="project-image-large">
-                    <i class="fas fa-microchip"></i>
+                    <img src="images/project-template.jpg" alt="Embedded Systems Development" class="modal-project-img">
                 </div>
                 <div class="project-description">
                     <h3>Overview</h3>
@@ -335,7 +354,7 @@
             <h2>Signal Processing Algorithm</h2>
             <div class="project-details">
                 <div class="project-image-large">
-                    <i class="fas fa-wave-square"></i>
+                    <img src="images/project-template.jpg" alt="Signal Processing Algorithm" class="modal-project-img">
                 </div>
                 <div class="project-description">
                     <h3>Overview</h3>
